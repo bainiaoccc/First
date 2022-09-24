@@ -1,0 +1,15 @@
+#define _CRT_SECURE_NO_WARNINGS 1
+#include<stdio.h>
+int main()
+{
+	char sex;
+	int a;
+	float h;
+	scanf("%c", &sex);
+	scanf("%d", &a);
+	scanf("%f", &h);
+	printf("The sex is %c,", sex);
+	printf("the age is %d,", a);
+	printf("and the height is %f.", h);
+	return 0;
+}
